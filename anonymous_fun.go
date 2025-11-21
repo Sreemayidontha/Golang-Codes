@@ -21,5 +21,8 @@ func main() {
 		fmt.Println(message("Geeks", "For"))
 	}
 	last()
+	func(ele string) {
+		fmt.Println("Welcome " + ele)
+	}("GreekForGeeks")
 
 }

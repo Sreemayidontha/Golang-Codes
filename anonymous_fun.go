@@ -17,8 +17,9 @@ func main() {
 	message := func(p, q string) string {
 		return p + q + GFG("Geeks")
 	}
-	func() {
+	last := func() {
 		fmt.Println(message("Geeks", "For"))
-	}()
+	}
+	last()
 
 }

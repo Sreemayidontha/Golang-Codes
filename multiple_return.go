@@ -5,10 +5,10 @@ import "fmt"
 func calculate(a, b int) (int, int, int) {
 	return a + b, a - b, a * b
 }
-func myfun(x, y int) (int, int) {
-	square := x * x
-	rectangle := x * y
-	return square, rectangle
+func myfun(x, y int) (square int, rectangle int) {
+	square = x * x
+	rectangle = x * y
+	return
 }
 func main() {
 	var1, var2, var3 := calculate(9, 6)

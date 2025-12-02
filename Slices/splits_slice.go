@@ -17,10 +17,12 @@ func main() {
 	for _, part := range res1 {
 		fmt.Println(string(part))
 	}
+	fmt.Printf("\n")
 	fmt.Printf("Original Slice2: %s\n", slice2)
 	for _, part := range res2 {
 		fmt.Println(string(part))
 	}
+	fmt.Printf("\n")
 	fmt.Printf("Original Slice3: %s\n", slice3)
 	for _, part := range res3 {
 		fmt.Println(string(part))

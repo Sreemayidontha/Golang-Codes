@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	slice1 := []byte("a,b,b")
+	slice1 := []byte("a,b,c")
 	slice2 := []byte("a;b;c")
 	slice3 := []byte("abc")
 	res1 := bytes.Split(slice1, []byte(","))
@@ -17,15 +17,18 @@ func main() {
 	for _, part := range res1 {
 		fmt.Println(string(part))
 	}
+	fmt.Printf("The splitted slice is :%q", res1)
 	fmt.Printf("\n")
 	fmt.Printf("Original Slice2: %s\n", slice2)
 	for _, part := range res2 {
 		fmt.Println(string(part))
 	}
+	fmt.Printf("The splitted slice is :%q", res2)
 	fmt.Printf("\n")
 	fmt.Printf("Original Slice3: %s\n", slice3)
 	for _, part := range res3 {
 		fmt.Println(string(part))
 	}
+	fmt.Printf("The splitted slice is :%q", res3)
 
 }

@@ -16,5 +16,8 @@ func main() {
 	s2 := "   Hello, Geeks   "
 	r4 := strings.TrimSpace(s2)
 	fmt.Println(r4)
+	s3 := "Welcome,to,GeeksforGeeks"
+	r5 := strings.Split(s3, ",")
+	fmt.Println(r5)
 
 }

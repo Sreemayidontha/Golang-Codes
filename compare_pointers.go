@@ -31,4 +31,19 @@ func main() {
 	res5 := &p3 == &p1
 	fmt.Println("Is p3 pointer is equal to p1 pointer: ", res5)
 
+	res6 := &p1 != &p2
+	fmt.Println("Is p1 pointer not equal to p2 pointer: ", res6)
+
+	res7 := p1 != p2
+	fmt.Println("Is p1 pointer not equal to p2 pointer: ", res7)
+
+	res8 := p1 != p3
+	fmt.Println("Is p1 pointer not equal to p3 pointer: ", res8)
+
+	res9 := p2 != p3
+	fmt.Println("Is p2 pointer not equal to p3 pointer: ", res9)
+
+	res10 := &p3 != &p1
+	fmt.Println("Is p3 pointer not equal to p1 pointer: ", res10)
+
 }

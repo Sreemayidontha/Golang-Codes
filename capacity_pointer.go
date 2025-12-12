@@ -14,7 +14,7 @@ func main() {
 		b[x] = &arr[x]
 	}
 	for x = 0; x < len(b); x++ {
-		fmt.Printf("Value of b[%d] =%d", *b[x])
+		fmt.Printf("Value of b[%d] =%d\n", x, *b[x])
 	}
 	fmt.Println("Capacity of b :", cap(b))
 

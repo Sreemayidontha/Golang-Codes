@@ -17,5 +17,7 @@ func main() {
 		fmt.Printf("Value of b[%d] =%d\n", x, *b[x])
 	}
 	fmt.Println("Capacity of b :", cap(b))
+	fmt.Println("Length of b :", len(b))
+	fmt.Println("Length of arr :", len(arr))
 
 }

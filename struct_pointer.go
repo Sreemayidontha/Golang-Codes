@@ -17,4 +17,12 @@ func main() {
 	p2.age = 30
 	fmt.Println(p1.age) // Output: 30
 
+	p3 := new(Person)
+	p3.name = "B"
+	p3.age = 22
+	fmt.Println(p3.name)
+	fmt.Println(p3.age)
+	fmt.Println(p1.age)
+	fmt.Println(p2.age)
+
 }

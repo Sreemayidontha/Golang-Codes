@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func display(s string) {
+	for i := 0; i < 5; i++ {
+		time.Sleep(500 * time.Microsecond)
+		fmt.Println(s)
+
+	}
+}
+func main() {
+	go display("Goroutine 1")
+	display("main Goroutine go")
+
+}

@@ -23,6 +23,9 @@ func main() {
 		}
 
 	}("Another Anonymous Goroutine!")
-	time.Sleep(1 * time.Second) // Allow Goroutine to finish
+	time.Sleep(1 * time.Second)
 	fmt.Println("Main function complete.")
+	//Goroutines in Go let functions run concurrently, using less memory
+	// than traditional threads. Every Go program starts with a main Goroutine,
+	// and if it exits, all others stop.
 }

@@ -6,7 +6,7 @@ import (
 )
 
 func display(s string) {
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 3; i++ {
 		time.Sleep(500 * time.Microsecond)
 		fmt.Println(s)
 
